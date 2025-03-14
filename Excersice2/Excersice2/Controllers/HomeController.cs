@@ -61,8 +61,8 @@ public class HomeController : Controller
             ContentType="text/html", 
             Content=
                 "<table><tr><th>Teacher ID</th><th>Teacher Name</th></tr>" + teachers + "</table>"
-            + "<table><tr><th><Class ID></th><th>Class Name</th><th>Teacher Id</th><tr>" + classes + "</tr></table>" 
-            + "<table><tr><th><Student ID></th><th>Class ID</th><th>Has Paid Fees</th><tr>" + paidFees + "</tr></table>"
+            + "<table><tr><th>Class ID</th><th>Class Name</th><th>Teacher Id</th><tr>" + classes + "</tr></table>" 
+            + "<table><tr><th>Student ID</th><th>Class ID</th><th>Has Paid Fees</th><tr>" + paidFees + "</tr></table>"
         };
     }
 
